@@ -20,7 +20,7 @@ class DataColtroller: ObservableObject {
     }
         
     }
-    
+    //save data
     func save(context: NSManagedObjectContext) {
         do {
             try context.save()
