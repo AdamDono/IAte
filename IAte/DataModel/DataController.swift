@@ -20,4 +20,14 @@ class DataColtroller: ObservableObject {
     }
         
     }
+    
+    func save(context: NSManagedObjectContext) {
+        do {
+            try context.save()
+            print ("Data Saved!!!")
+        }
+        catch {
+            print("We Could `not Save the data.....")
+        }
+    }
 }
