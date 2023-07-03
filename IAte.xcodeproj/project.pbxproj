@@ -11,6 +11,7 @@
 		08C98D3F2A52B4FD00B1D023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C98D3E2A52B4FD00B1D023 /* ContentView.swift */; };
 		08C98D412A52B4FF00B1D023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D402A52B4FF00B1D023 /* Assets.xcassets */; };
 		08C98D442A52B4FF00B1D023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D432A52B4FF00B1D023 /* Preview Assets.xcassets */; };
+		08C98D4D2A52B77C00B1D023 /*  FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08C98D4B2A52B77C00B1D023 /*  FoodModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		08C98D3E2A52B4FD00B1D023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08C98D402A52B4FF00B1D023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C98D432A52B4FF00B1D023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08C98D4C2A52B77C00B1D023 /*  FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = " FoodModel.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		08C98D4A2A52B65300B1D023 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				08C98D4B2A52B77C00B1D023 /*  FoodModel.xcdatamodeld */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				08C98D3F2A52B4FD00B1D023 /* ContentView.swift in Sources */,
 				08C98D3D2A52B4FD00B1D023 /* IAteApp.swift in Sources */,
+				08C98D4D2A52B77C00B1D023 /*  FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +351,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08C98D4B2A52B77C00B1D023 /*  FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08C98D4C2A52B77C00B1D023 /*  FoodModel.xcdatamodel */,
+			);
+			currentVersion = 08C98D4C2A52B77C00B1D023 /*  FoodModel.xcdatamodel */;
+			path = " FoodModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 08C98D312A52B4FD00B1D023 /* Project object */;
 }
