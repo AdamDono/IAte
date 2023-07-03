@@ -12,6 +12,7 @@
 		08C98D412A52B4FF00B1D023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D402A52B4FF00B1D023 /* Assets.xcassets */; };
 		08C98D442A52B4FF00B1D023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D432A52B4FF00B1D023 /* Preview Assets.xcassets */; };
 		08C98D4D2A52B77C00B1D023 /*  FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08C98D4B2A52B77C00B1D023 /*  FoodModel.xcdatamodeld */; };
+		08C98D4F2A52BA7400B1D023 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C98D4E2A52BA7400B1D023 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		08C98D402A52B4FF00B1D023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C98D432A52B4FF00B1D023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08C98D4C2A52B77C00B1D023 /*  FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = " FoodModel.xcdatamodel"; sourceTree = "<group>"; };
+		08C98D4E2A52BA7400B1D023 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				08C98D4B2A52B77C00B1D023 /*  FoodModel.xcdatamodeld */,
+				08C98D4E2A52BA7400B1D023 /* DataController.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C98D3F2A52B4FD00B1D023 /* ContentView.swift in Sources */,
+				08C98D4F2A52BA7400B1D023 /* DataController.swift in Sources */,
 				08C98D3D2A52B4FD00B1D023 /* IAteApp.swift in Sources */,
 				08C98D4D2A52B77C00B1D023 /*  FoodModel.xcdatamodeld in Sources */,
 			);

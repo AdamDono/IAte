@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import CoreData
+
+class DataColtroller: ObservableObject {
+    
+    let container = NSPersistentContainer(name : "FoodModel")
+    
+    init(){container.loadPersistentStores {desc, error in
+        if let error = error {
+            print ("failed to load the data \(error.localizedDescription)")
+            
+        }
+    }
+        
+    }
+}
