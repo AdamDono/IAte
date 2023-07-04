@@ -24,9 +24,19 @@ struct AddFoodview: View {
                 VStack{
                     
                     Text("Calories: \(Int(calories))")
-                    Slider(value: $calories, in: 0...1000,
-                           step: 10)
+                    Slider(value: $calories, in: 0...1000, step: 10)
                 }
+                .padding()
+               HStack{
+                   Spacer()
+                   Button("Submit"){
+                       DataColtroller().addFood(name: name, calories: calories, context: managedObjectContext)
+                       
+                       dismiss()
+                       
+                   }
+                   Spacer()
+               }
             }
         }
     }
