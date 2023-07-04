@@ -13,7 +13,7 @@ struct AddFoodview: View {
     @Environment (\.dismiss) var  dismiss
     
     @State private var name = ""
-    @State private var calories =  0
+    @State private var calories: Double =  0
     
     
     var body: some View {
@@ -23,7 +23,9 @@ struct AddFoodview: View {
                 
                 VStack{
                     
-                    Text("h")
+                    Text("Calories: \(Int(calories))")
+                    Slider(value: $calories, in: 0...1000,
+                           step: 10)
                 }
             }
         }
