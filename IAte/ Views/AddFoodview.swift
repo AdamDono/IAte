@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct AddFoodview: View {
+    
+    @Environment(\.managedObjectContext) var managedObjectContext
+    @Environment (\.dismiss) var  dismiss
+    
+    @State private var name = ""
+    @State private var calories =  0
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Section{
+                TextField ("Food name", text: $name)
+            }
+        }
     }
 }
 
