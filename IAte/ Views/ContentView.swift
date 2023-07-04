@@ -1,4 +1,4 @@
-//
+ //
 //  ContentView.swift
 //  IAte
 //
@@ -6,8 +6,14 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
+    @Environment (\.managedObjectContext) var managedObjectContext
+    
+    //get data from the data base
+    
+    @FetchRequest (sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var food: FetchedResults <Food>
     var body: some View {
         VStack {
             Image(systemName: "globe")
