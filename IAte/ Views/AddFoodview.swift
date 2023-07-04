@@ -20,6 +20,11 @@ struct AddFoodview: View {
         Form {
             Section{
                 TextField ("Food name", text: $name)
+                
+                VStack{
+                    
+                    Text("h")
+                }
             }
         }
     }
