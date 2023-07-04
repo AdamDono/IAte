@@ -42,5 +42,17 @@ class DataColtroller: ObservableObject {
         
         save(context: context)
     }
+    
+    //edit data or food
+    func editFood (food: Food, name: String,calories: Double, context: NSManagedObjectContext) {
+        food.date = Date()
+        food.name = name
+        food.calories = calories
+        
+        //saving changes after edit
+        save(context: context)
+
+        
+    }
 }
  
