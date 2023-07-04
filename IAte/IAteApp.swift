@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct IAteApp: App {
+    
+    @StateObject private var dataController = DataColtroller () 
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
