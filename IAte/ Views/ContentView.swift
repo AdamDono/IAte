@@ -14,14 +14,16 @@ struct ContentView: View {
     //get data from the data base
     
     @FetchRequest (sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var food: FetchedResults <Food>
+    
+    @State private var showingAddView = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+      NavigationView
+        {
+            VStack (alignment: .leading) {
+                
+            }
+            .navigationTitle("iCalaries")
         }
-        .padding()
     }
 }
 
